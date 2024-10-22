@@ -9,8 +9,11 @@
 </head>
 
 <body>
-    <!--includi header-->
+    <!--header-->
     @include("partial.header")
+
+     <!--jumbotron-->
+     @include("partial.jumbotron")
 
     <!-- inserisci contenuti-->
     <main>

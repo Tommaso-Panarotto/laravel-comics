@@ -3,7 +3,7 @@
     <div class="container">
         <!--LOGO-->
         <section id="logo">
-            <img src="../../img/dc-logo.png" alt="DC Main Logo">
+            <img src="{{URL::asset('img/dc-logo.png')}}" alt="dc-logo" width="100px">
         </section>
 
         <!--LINKS-->
