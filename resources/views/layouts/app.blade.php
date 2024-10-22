@@ -16,8 +16,9 @@
     <main>
          <!--jumbotron-->
      @include("partial.jumbotron")
-
         @yield("main-content")
+        <!--icon-->
+    @include("partial.icon")
     </main>
 
     <!-- includi footer -->
