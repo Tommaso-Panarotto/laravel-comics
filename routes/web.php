@@ -14,5 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.home');
+    $headerLinks= [
+        "Characters",
+        "Comics",
+        "Movies",
+        "Tv",
+        "Games",
+        "Collectible",
+        "Videos",
+        "Fans",
+        "News",
+        "Shop"
+    ];
+    $comics = config("db.pokemon");
+    return view('pages.home', compact("comics","headerLinks"));
 });
