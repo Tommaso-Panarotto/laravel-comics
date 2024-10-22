@@ -12,11 +12,11 @@
     <!--header-->
     @include("partial.header")
 
-     <!--jumbotron-->
-     @include("partial.jumbotron")
-
     <!-- inserisci contenuti-->
     <main>
+         <!--jumbotron-->
+     @include("partial.jumbotron")
+
         @yield("main-content")
     </main>
 

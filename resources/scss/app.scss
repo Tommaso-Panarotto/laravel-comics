@@ -43,7 +43,7 @@ header {
         display: flex;
 
         li {
-            line-height: 100px;
+            line-height: 93px;
             height: 100%;
             padding: 0 10px;
             text-transform: uppercase;
@@ -68,7 +68,7 @@ header {
 //jumbotron
 #jumbotron {
     height: 700px;
-    background-image: url(../img/jumbotron.jpg);
+    background-image: url(../../public/img/jumbotron.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -114,6 +114,27 @@ main {
             cursor: pointer;
             background-color: #0282F9;
             color: white;
+        }
+
+        #comic-list {
+            padding-top: 40px;
+
+            li {
+                width: calc((100% / 6) - 20px);
+                height: 400px;
+                border: 1px solid #1C1C1C;
+
+                &:hover {
+                    border: 1px solid white;
+                }
+
+                .comic-image {
+                    height: 300px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
         }
     }
 }

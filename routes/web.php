@@ -26,6 +26,6 @@ Route::get('/', function () {
         "News",
         "Shop"
     ];
-    $comics = config("db.pokemon");
+    $comics = config("db.comics");
     return view('pages.home', compact("comics","headerLinks"));
 });
