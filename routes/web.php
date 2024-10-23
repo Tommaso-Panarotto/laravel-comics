@@ -130,4 +130,4 @@ Route::get('/comics/{index}', function (string $index) {
     } else {
         abort(404);
     };
-})->name("home");
+})->name("comics.show");
