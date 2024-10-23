@@ -7,7 +7,7 @@
     <div class="current-series"><span>current series</span></div>
     <section id="content">
 <ul id="comic-list">
-    @foreach ($comics as $comic)
+    @foreach ($comics as $index => $comic)
     <li>
         <div class="card bg-transparent border-0" >
             <div class="comic-image">
