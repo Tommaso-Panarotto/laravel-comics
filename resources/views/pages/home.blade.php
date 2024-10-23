@@ -12,7 +12,7 @@
         <a href="{{ route("comics.show", $index)}}">
         <div class="card bg-transparent border-0" >
             <div class="comic-image">
-    <img src="{{$comic["thumb"]}}" alt="">
+    <img src="{{$comic["thumb"]}}" alt="{{$comic["series"]}}">
             </div>
             <div class="card-body text-white">
           <h5 class="card-title">{{$comic["series"]}}</h5>

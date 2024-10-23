@@ -3,7 +3,7 @@
     <div class="container">
         <!--LOGO-->
         <section id="logo">
-            <img src="img/dc-logo.png" alt="dc-logo" width="100px">
+            <a href="{{ route("home")}}"><img src="img/dc-logo.png" alt="dc-logo" width="100px"></a>
         </section>
 
         <!--LINKS-->
