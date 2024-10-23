@@ -48,11 +48,11 @@
                 <div id="socials">
                     <h3>FOLLOW US</h3>
                     <ul>
-                        <li><a href="#"><img src="img/footer-facebook.png" alt="facebook"></a></li>
-                        <li><a href="#"><img src="img/footer-twitter.png" alt="twitter"></a></li>
-                        <li><a href="#"><img src="img/footer-youtube.png" alt="YouTube"></a></li>
-                        <li><a href="#"><img src="img/footer-pinterest.png" alt="pinterest"></a></li>
-                        <li><a href="#"><img src="img/footer-periscope.png" alt="Maps"></a></li>
+                        <li><a href="#"><img src="/img/footer-facebook.png" alt="facebook"></a></li>
+                        <li><a href="#"><img src="/img/footer-twitter.png" alt="twitter"></a></li>
+                        <li><a href="#"><img src="/img/footer-youtube.png" alt="YouTube"></a></li>
+                        <li><a href="#"><img src="/img/footer-pinterest.png" alt="pinterest"></a></li>
+                        <li><a href="#"><img src="/img/footer-periscope.png" alt="Maps"></a></li>
                     </ul>
                 </div>
             </div>

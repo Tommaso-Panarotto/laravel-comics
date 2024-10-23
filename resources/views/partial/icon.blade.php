@@ -4,7 +4,7 @@
         <ul>
             @foreach ($icons as $icon)
             <li>
-                <img src="img/{{$icon["imageUrl"]}}" alt="{{$icon["name"]}}">
+                <img src="/img/{{$icon["imageUrl"]}}" alt="{{$icon["name"]}}">
                 <p>{{ $icon["name"] }}</p>
             </li>
             @endforeach
